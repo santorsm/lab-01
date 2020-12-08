@@ -1,0 +1,41 @@
+
+header {
+  height: 100px;
+  border: 1px solid black;
+  margin: auto;  
+  text-align: center;
+  line-height: 80px;
+  background-color: #e3fdfd;
+}
+
+aside {
+  float: left;
+  height: 600px;
+  width: 200px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 600px;
+  background-color: #cbf1f5;
+}
+
+#top-left {
+  float: left;
+  height: 200px;
+  width: 380px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 200px;
+  background-color: #a6e3e9;
+}
+
+#top-right {
+  float: right;
+  height: 200px;
+  width: 380px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 200px;
+  background-color: #a6e3e9;
+}
+
+
