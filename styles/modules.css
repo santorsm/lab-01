@@ -35,9 +35,26 @@ footer {
   background-color: #0F5298;
 }
 
+
+
+
 @media(min-width: 768px){
 
-
+  #top-left, #top-right {
+    
+  }
+  
+  #column-1, #column-2 {
+   
+  }
+  
+  #column-3, #column-4 {
+    
+  }
+  
+  footer {
+   
+  }
 
 
 }
