@@ -1,0 +1,43 @@
+body, header, main, aside, footer {
+  margin: auto;
+  text-align: center;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+header {
+  background-color: #e3fdfd;
+}
+
+aside {
+  background-color: #D5F3FE;
+}
+
+div {
+  text-align: center;
+}
+
+#top-left, #top-right {
+  background-color: #66D3FA;
+}
+
+#column-1, #column-2 {
+  background-color: #3C99DC;
+}
+
+#column-3, #column-4 {
+  background-color: #2565AE;
+}
+
+footer {
+  background-color: #0F5298;
+}
+
+@media(min-width: 768px){
+
+
+
+
+}
