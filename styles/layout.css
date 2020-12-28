@@ -1,3 +1,5 @@
+/* mobile first design */
+
 body {
   width: 480px;
 }
@@ -66,18 +68,17 @@ footer {
   line-height: 80px;
 }
 
-/* desktop specific dimensions */
+/* desktop dimensions */
 @media(min-width: 768px){
 
 body {
-  max-width: 960px;
-  background-color: whitesmoke;
+  width: 960px;
 }
 
 header {
+  width: 960px;
   height: 100px;
   line-height: 100px;
-  background-color: #e3fdfd;
 }
 
 aside {
@@ -85,56 +86,29 @@ aside {
   height: 600px;
   width: 200px;
   line-height: 600px;
-  background-color: #cbf1f5;
 }
 
 main {
-  width: 960px;
-  height: 450px;
+  width: 965px;
 }
 
-#section-1 {
+div {
   float: left;
-  height: 450px;
-  width: 380px;
-  overflow: auto;
-  margin: 0px;
-  
-}
-
-#section-2 {
-  display: inline-block;
-  height: 450px;
-  width: 380px;
-  overflow: auto;
-  margin: 0px;
-  
 }
 
 #top-left {
-  float: left;
   height: 200px;
   width: 380px;
-  text-align: center;
   line-height: 200px;
-  background-color: #a6e3e9;
-
 }
 
 #top-right {
-  clear: both;
-  float: inherit;
   height: 200px;
   width: 380px;
-  text-align: center;
   line-height: 200px;
-  background-color: #a6e3e9;
-
-
 }
 
 #column-1 {
-  float: left;
   height:250px;
   width: 190px;
   line-height: 250px;
@@ -145,8 +119,6 @@ main {
   height:250px;
   width: 190px;
   line-height: 250px;
-  margin: 0;
-  display: inline-block;
 
 }
 
@@ -154,22 +126,17 @@ main {
   height:250px;
   width: 190px;
   line-height: 250px;
-  display: inline-block;
-  margin: auto;
 }
 
 #column-4 {
   height:250px;
   width: 190px;
   line-height: 250px;
-  margin: 0;
-  float: right;
 }
 
 footer {
-  /* margin: 0px auto; */
-  max-height: 150px;
-  height: 150;
+  width: 760px;
+  height: 150px;
   line-height: 150px;
 }
 
